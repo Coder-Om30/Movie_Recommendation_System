@@ -4,7 +4,8 @@ import streamlit as st
 # =============================
 # CONFIG
 # =============================
-API_BASE = "http://127.0.0.1:8000"  # Your local backend for OMDB-based FastAPI
+API_BASE = "https://movie-recommendation-system-l2tf.onrender.com"  # Your deployed backend for OMDB-based FastAPI
+# API_BASE = "http://127.0.0.1:8000"  # Your local backend for OMDB-based FastAPI
 
 st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="wide")
 
